@@ -17,5 +17,4 @@ jobs:
         # Branch to merge into downstream
         downstream_branch: uat
         # GitHub Bot token
-        token: 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
-    
+        token: "{{secrets.GIT_SECRET_CRED}}"

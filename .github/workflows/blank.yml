@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
         # URL of gitHub public upstream repo
-        upstream_repo: https://github.com/singh/workflows
+        upstream_repo: https://github.com/actions/singh
         # Branch to merge from upstream (defaults to downstream branch)
         upstream_branch: main
         # Branch to merge into downstream
